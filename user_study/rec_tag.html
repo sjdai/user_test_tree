@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
 
-  <title>RL result tree</title>
+  <title>Rec tag result tree</title>
 
   <style>
     .node {
@@ -67,14 +67,14 @@
   <h3>顏色越深代表與上一個節點的相似度越高</h3>
   <h3>節點上的數字代表該節點與上一個節點的Similarity score (使用title計算)</h3>
   <h3>滑鼠移動到任一節點上即可看到該節點的新聞標題</h3>
-  <a href="https://doraemon.iis.sinica.edu.tw/user_study/Rec.html">Rec (user study)</a> 
-  <a href="https://doraemon.iis.sinica.edu.tw/user_study/RL.html">RL (user study)</a> 
-  <a href="https://doraemon.iis.sinica.edu.tw/pilot/Rec_tag.html">Rec_tag (pilot study)</a> 
-  <a href="https://doraemon.iis.sinica.edu.tw/pilot/Rec.html">Rec (pilot study)</a> 
-  <a href="https://doraemon.iis.sinica.edu.tw/pilot/RL.html">RL (pilot study)</a> 
+  <a href="https://doraemon.iis.sinica.edu.tw/user_study/rec.html">Rec (user study)</a>
+  <a href="https://doraemon.iis.sinica.edu.tw/user_study/RL.html">RL (user study)</a>
+  <a href="https://doraemon.iis.sinica.edu.tw/pilot/rec_tag.html">Rec_tag (pilot study)</a>
+  <a href="https://doraemon.iis.sinica.edu.tw/pilot/rec.html">Rec (pilot study)</a>
+  <a href="https://doraemon.iis.sinica.edu.tw/pilot/RL.html">RL (pilot study)</a>
 
 
-  
+
   <!-- load the d3.js library -->
   <script src="https://d3js.org/d3.v3.min.js"></script>
 
@@ -83,7 +83,7 @@
       name: "null",
       children: [
     {
-        "name": "1 pre:True post:False long-term:True",
+        "name": "1 True,False,True",
         "parent": "null",
         "tip": "本醫學教授Tasuku Honjo(本庶佑)博士今天表示\"冠狀病毒不是天然的\"",
         "fill": "rgba(211,7,7,1)",
@@ -460,7 +460,7 @@
         "stroke": "#000000"
     },
     {
-        "name": "2 pre:False post:False long-term:True",
+        "name": "2 False,False,True",
         "parent": "null",
         "tip": "無污染和結構損壞 醫師：口罩經消毒可重複使用",
         "fill": "rgba(211,7,7,1)",
@@ -830,7 +830,7 @@
         "stroke": "#000000"
     },
     {
-        "name": "3 pre:True post:True long-term:True",
+        "name": "3 True,True,True",
         "parent": "null",
         "tip": "本醫學教授Tasuku Honjo(本庶佑)博士今天表示\"冠狀病毒不是天然的\"",
         "fill": "rgba(211,7,7,1)",
@@ -1207,7 +1207,7 @@
         "stroke": "#000000"
     },
     {
-        "name": "4 pre:False post:False long-term:False",
+        "name": "4 False,False,False",
         "parent": "null",
         "tip": "“感謝中國！”羅馬上空響起《義勇軍進行曲》",
         "fill": "rgba(211,7,7,1)",
@@ -1584,7 +1584,7 @@
         "stroke": "#000000"
     },
     {
-        "name": "5 pre:True post:True long-term:True",
+        "name": "5 True,True,True",
         "parent": "null",
         "tip": "無污染和結構損壞 醫師：口罩經消毒可重複使用",
         "fill": "rgba(211,7,7,1)",
@@ -1961,7 +1961,7 @@
         "stroke": "#000000"
     },
     {
-        "name": "6 pre:True post:True long-term:True",
+        "name": "6 True,True,True",
         "parent": "null",
         "tip": "“感謝中國！”羅馬上空響起《義勇軍進行曲》",
         "fill": "rgba(211,7,7,1)",
@@ -2338,7 +2338,7 @@
         "stroke": "#000000"
     },
     {
-        "name": "7 pre:True post:True long-term:True",
+        "name": "7 True,True,True",
         "parent": "null",
         "tip": "本醫學教授Tasuku Honjo(本庶佑)博士今天表示\"冠狀病毒不是天然的\"",
         "fill": "rgba(211,7,7,1)",
@@ -2715,7 +2715,7 @@
         "stroke": "#000000"
     },
     {
-        "name": "8 pre:True post:True long-term:True",
+        "name": "8 True,True,True",
         "parent": "null",
         "tip": "“感謝中國！”羅馬上空響起《義勇軍進行曲》",
         "fill": "rgba(211,7,7,1)",
@@ -3092,7 +3092,7 @@
         "stroke": "#000000"
     },
     {
-        "name": "9 pre:True post:True long-term:False",
+        "name": "9 True,True,False",
         "parent": "null",
         "tip": "本醫學教授Tasuku Honjo(本庶佑)博士今天表示\"冠狀病毒不是天然的\"",
         "fill": "rgba(211,7,7,1)",
@@ -3469,7 +3469,7 @@
         "stroke": "#000000"
     },
     {
-        "name": "10 pre:True post:True long-term:True",
+        "name": "10 True,True,True",
         "parent": "null",
         "tip": "無污染和結構損壞 醫師：口罩經消毒可重複使用",
         "fill": "rgba(211,7,7,1)",
@@ -3846,7 +3846,7 @@
         "stroke": "#000000"
     },
     {
-        "name": "11 pre:True post:True long-term:True",
+        "name": "11 True,True,True",
         "parent": "null",
         "tip": "無污染和結構損壞 醫師：口罩經消毒可重複使用",
         "fill": "rgba(211,7,7,1)",
@@ -4216,7 +4216,7 @@
         "stroke": "#000000"
     },
     {
-        "name": "12 pre:False post:False long-term:False",
+        "name": "12 False,False,False",
         "parent": "null",
         "tip": "“感謝中國！”羅馬上空響起《義勇軍進行曲》",
         "fill": "rgba(211,7,7,1)",
@@ -4593,7 +4593,7 @@
         "stroke": "#000000"
     },
     {
-        "name": "13 pre:True post:True long-term:False",
+        "name": "13 True,True,False",
         "parent": "null",
         "tip": "本醫學教授Tasuku Honjo(本庶佑)博士今天表示\"冠狀病毒不是天然的\"",
         "fill": "rgba(211,7,7,1)",
@@ -4970,7 +4970,7 @@
         "stroke": "#000000"
     },
     {
-        "name": "14 pre:True post:True long-term:True",
+        "name": "14 True,True,True",
         "parent": "null",
         "tip": "無污染和結構損壞 醫師：口罩經消毒可重複使用",
         "fill": "rgba(211,7,7,1)",
@@ -5347,7 +5347,7 @@
         "stroke": "#000000"
     },
     {
-        "name": "15 pre:False post:False long-term:False",
+        "name": "15 False,False,False",
         "parent": "null",
         "tip": "“感謝中國！”羅馬上空響起《義勇軍進行曲》",
         "fill": "rgba(211,7,7,1)",
@@ -5724,7 +5724,7 @@
         "stroke": "#000000"
     },
     {
-        "name": "16 pre:True post:False long-term:False",
+        "name": "16 True,False,False",
         "parent": "null",
         "tip": "“感謝中國！”羅馬上空響起《義勇軍進行曲》",
         "fill": "rgba(211,7,7,1)",
@@ -6101,7 +6101,7 @@
         "stroke": "#000000"
     },
     {
-        "name": "17 pre:True post:True long-term:False",
+        "name": "17 True,True,False",
         "parent": "null",
         "tip": "無污染和結構損壞 醫師：口罩經消毒可重複使用",
         "fill": "rgba(211,7,7,1)",
@@ -6478,7 +6478,7 @@
         "stroke": "#000000"
     },
     {
-        "name": "18 pre:False post:False long-term:True",
+        "name": "18 False,False,True",
         "parent": "null",
         "tip": "“感謝中國！”羅馬上空響起《義勇軍進行曲》",
         "fill": "rgba(211,7,7,1)",
@@ -6855,7 +6855,7 @@
         "stroke": "#000000"
     },
     {
-        "name": "19 pre:True post:True long-term:True",
+        "name": "19 True,True,True",
         "parent": "null",
         "tip": "本醫學教授Tasuku Honjo(本庶佑)博士今天表示\"冠狀病毒不是天然的\"",
         "fill": "rgba(211,7,7,1)",
@@ -7232,7 +7232,7 @@
         "stroke": "#000000"
     },
     {
-        "name": "20 pre:True post:True long-term:True",
+        "name": "20 True,True,True",
         "parent": "null",
         "tip": "無污染和結構損壞 醫師：口罩經消毒可重複使用",
         "fill": "rgba(211,7,7,1)",
@@ -7609,7 +7609,7 @@
         "stroke": "#000000"
     },
     {
-        "name": "21 pre:False post:False long-term:False",
+        "name": "21 False,False,False",
         "parent": "null",
         "tip": "“感謝中國！”羅馬上空響起《義勇軍進行曲》",
         "fill": "rgba(211,7,7,1)",
@@ -7979,7 +7979,7 @@
         "stroke": "#000000"
     },
     {
-        "name": "22 pre:True post:False long-term:False",
+        "name": "22 True,False,False",
         "parent": "null",
         "tip": "本醫學教授Tasuku Honjo(本庶佑)博士今天表示\"冠狀病毒不是天然的\"",
         "fill": "rgba(211,7,7,1)",
@@ -8171,7 +8171,7 @@
         "stroke": "#000000"
     },
     {
-        "name": "23 pre:True post:True long-term:True",
+        "name": "23 True,True,True",
         "parent": "null",
         "tip": "無污染和結構損壞 醫師：口罩經消毒可重複使用",
         "fill": "rgba(211,7,7,1)",
@@ -8548,7 +8548,7 @@
         "stroke": "#000000"
     },
     {
-        "name": "24 pre:False post:False long-term:False",
+        "name": "24 False,False,False",
         "parent": "null",
         "tip": "本醫學教授Tasuku Honjo(本庶佑)博士今天表示\"冠狀病毒不是天然的\"",
         "fill": "rgba(211,7,7,1)",
@@ -8925,7 +8925,7 @@
         "stroke": "#000000"
     },
     {
-        "name": "25 pre:False post:True long-term:True",
+        "name": "25 False,True,True",
         "parent": "null",
         "tip": "無污染和結構損壞 醫師：口罩經消毒可重複使用",
         "fill": "rgba(211,7,7,1)",
@@ -9302,7 +9302,7 @@
         "stroke": "#000000"
     },
     {
-        "name": "26 pre:False post:False long-term:False",
+        "name": "26 False,False,False",
         "parent": "null",
         "tip": "“感謝中國！”羅馬上空響起《義勇軍進行曲》",
         "fill": "rgba(211,7,7,1)",
@@ -9679,7 +9679,7 @@
         "stroke": "#000000"
     },
     {
-        "name": "27 pre:True post:True long-term:False",
+        "name": "27 True,True,False",
         "parent": "null",
         "tip": "“感謝中國！”羅馬上空響起《義勇軍進行曲》",
         "fill": "rgba(211,7,7,1)",
@@ -10056,7 +10056,7 @@
         "stroke": "#000000"
     },
     {
-        "name": "28 pre:False post:True long-term:True",
+        "name": "28 False,True,True",
         "parent": "null",
         "tip": "無污染和結構損壞 醫師：口罩經消毒可重複使用",
         "fill": "rgba(211,7,7,1)",
@@ -10433,7 +10433,7 @@
         "stroke": "#000000"
     },
     {
-        "name": "29 pre:False post:False long-term:True",
+        "name": "29 False,False,True",
         "parent": "null",
         "tip": "本醫學教授Tasuku Honjo(本庶佑)博士今天表示\"冠狀病毒不是天然的\"",
         "fill": "rgba(211,7,7,1)",
@@ -10810,7 +10810,7 @@
         "stroke": "#000000"
     },
     {
-        "name": "30 pre:False post:True long-term:True",
+        "name": "30 False,True,True",
         "parent": "null",
         "tip": "無污染和結構損壞 醫師：口罩經消毒可重複使用",
         "fill": "rgba(211,7,7,1)",
@@ -11187,7 +11187,7 @@
         "stroke": "#000000"
     },
     {
-        "name": "31 pre:True post:False long-term:True",
+        "name": "31 True,False,True",
         "parent": "null",
         "tip": "“感謝中國！”羅馬上空響起《義勇軍進行曲》",
         "fill": "rgba(211,7,7,1)",
@@ -11564,7 +11564,7 @@
         "stroke": "#000000"
     },
     {
-        "name": "32 pre:False post:True long-term:True",
+        "name": "32 False,True,True",
         "parent": "null",
         "tip": "本醫學教授Tasuku Honjo(本庶佑)博士今天表示\"冠狀病毒不是天然的\"",
         "fill": "rgba(211,7,7,1)",
@@ -11941,7 +11941,7 @@
         "stroke": "#000000"
     },
     {
-        "name": "33 pre:True post:True long-term:True",
+        "name": "33 True,True,True",
         "parent": "null",
         "tip": "無污染和結構損壞 醫師：口罩經消毒可重複使用",
         "fill": "rgba(211,7,7,1)",
@@ -11985,7 +11985,7 @@
         "stroke": "#000000"
     },
     {
-        "name": "34 pre:False post:False long-term:True",
+        "name": "34 False,False,True",
         "parent": "null",
         "tip": "“感謝中國！”羅馬上空響起《義勇軍進行曲》",
         "fill": "rgba(211,7,7,1)",
@@ -12362,7 +12362,7 @@
         "stroke": "#000000"
     },
     {
-        "name": "35 pre:False post:False long-term:False",
+        "name": "35 False,False,False",
         "parent": "null",
         "tip": "本醫學教授Tasuku Honjo(本庶佑)博士今天表示\"冠狀病毒不是天然的\"",
         "fill": "rgba(211,7,7,1)",
@@ -12739,7 +12739,7 @@
         "stroke": "#000000"
     },
     {
-        "name": "36 pre:False post:False long-term:False",
+        "name": "36 False,False,False",
         "parent": "null",
         "tip": "“感謝中國！”羅馬上空響起《義勇軍進行曲》",
         "fill": "rgba(211,7,7,1)",
@@ -13116,7 +13116,7 @@
         "stroke": "#000000"
     },
     {
-        "name": "37 pre:False post:False long-term:False",
+        "name": "37 False,False,False",
         "parent": "null",
         "tip": "“感謝中國！”羅馬上空響起《義勇軍進行曲》",
         "fill": "rgba(211,7,7,1)",
@@ -13493,7 +13493,7 @@
         "stroke": "#000000"
     },
     {
-        "name": "38 pre:True post:True long-term:True",
+        "name": "38 True,True,True",
         "parent": "null",
         "tip": "本醫學教授Tasuku Honjo(本庶佑)博士今天表示\"冠狀病毒不是天然的\"",
         "fill": "rgba(211,7,7,1)",
@@ -13870,7 +13870,7 @@
         "stroke": "#000000"
     },
     {
-        "name": "39 pre:True post:True long-term:True",
+        "name": "39 True,True,True",
         "parent": "null",
         "tip": "無污染和結構損壞 醫師：口罩經消毒可重複使用",
         "fill": "rgba(211,7,7,1)",
@@ -14247,7 +14247,7 @@
         "stroke": "#000000"
     },
     {
-        "name": "40 pre:True post:True long-term:True",
+        "name": "40 True,True,True",
         "parent": "null",
         "tip": "“感謝中國！”羅馬上空響起《義勇軍進行曲》",
         "fill": "rgba(211,7,7,1)",
@@ -14624,7 +14624,7 @@
         "stroke": "#000000"
     },
     {
-        "name": "41 pre:False post:False long-term:False",
+        "name": "41 False,False,False",
         "parent": "null",
         "tip": "本醫學教授Tasuku Honjo(本庶佑)博士今天表示\"冠狀病毒不是天然的\"",
         "fill": "rgba(211,7,7,1)",
@@ -15001,7 +15001,7 @@
         "stroke": "#000000"
     },
     {
-        "name": "42 pre:True post:True long-term:True",
+        "name": "42 True,True,True",
         "parent": "null",
         "tip": "“感謝中國！”羅馬上空響起《義勇軍進行曲》",
         "fill": "rgba(211,7,7,1)",
@@ -15378,7 +15378,7 @@
         "stroke": "#000000"
     },
     {
-        "name": "43 pre:False post:False long-term:True",
+        "name": "43 False,False,True",
         "parent": "null",
         "tip": "本醫學教授Tasuku Honjo(本庶佑)博士今天表示\"冠狀病毒不是天然的\"",
         "fill": "rgba(211,7,7,1)",
@@ -15755,7 +15755,7 @@
         "stroke": "#000000"
     },
     {
-        "name": "44 pre:True post:False long-term:True",
+        "name": "44 True,False,True",
         "parent": "null",
         "tip": "“感謝中國！”羅馬上空響起《義勇軍進行曲》",
         "fill": "rgba(211,7,7,1)",
@@ -16132,7 +16132,7 @@
         "stroke": "#000000"
     },
     {
-        "name": "45 pre:True post:True long-term:True",
+        "name": "45 True,True,True",
         "parent": "null",
         "tip": "無污染和結構損壞 醫師：口罩經消毒可重複使用",
         "fill": "rgba(211,7,7,1)",
@@ -16509,7 +16509,7 @@
         "stroke": "#000000"
     },
     {
-        "name": "46 pre:True post:True long-term:True",
+        "name": "46 True,True,True",
         "parent": "null",
         "tip": "無污染和結構損壞 醫師：口罩經消毒可重複使用",
         "fill": "rgba(211,7,7,1)",
@@ -16886,7 +16886,7 @@
         "stroke": "#000000"
     },
     {
-        "name": "47 pre:False post:False long-term:False",
+        "name": "47 False,False,False",
         "parent": "null",
         "tip": "本醫學教授Tasuku Honjo(本庶佑)博士今天表示\"冠狀病毒不是天然的\"",
         "fill": "rgba(211,7,7,1)",
@@ -17263,7 +17263,7 @@
         "stroke": "#000000"
     },
     {
-        "name": "48 pre:False post:True long-term:True",
+        "name": "48 False,True,True",
         "parent": "null",
         "tip": "“感謝中國！”羅馬上空響起《義勇軍進行曲》",
         "fill": "rgba(211,7,7,1)",
@@ -17640,7 +17640,7 @@
         "stroke": "#000000"
     },
     {
-        "name": "49 pre:False post:False long-term:False",
+        "name": "49 False,False,False",
         "parent": "null",
         "tip": "本醫學教授Tasuku Honjo(本庶佑)博士今天表示\"冠狀病毒不是天然的\"",
         "fill": "rgba(211,7,7,1)",
@@ -18017,7 +18017,7 @@
         "stroke": "#000000"
     },
     {
-        "name": "50 pre:False post:False long-term:False",
+        "name": "50 False,False,False",
         "parent": "null",
         "tip": "“感謝中國！”羅馬上空響起《義勇軍進行曲》",
         "fill": "rgba(211,7,7,1)",
@@ -18394,7 +18394,7 @@
         "stroke": "#000000"
     },
     {
-        "name": "51 pre:False post:False long-term:False",
+        "name": "51 False,False,False",
         "parent": "null",
         "tip": "本醫學教授Tasuku Honjo(本庶佑)博士今天表示\"冠狀病毒不是天然的\"",
         "fill": "rgba(211,7,7,1)",
@@ -18771,7 +18771,7 @@
         "stroke": "#000000"
     },
     {
-        "name": "52 pre:True post:True long-term:True",
+        "name": "52 True,True,True",
         "parent": "null",
         "tip": "無污染和結構損壞 醫師：口罩經消毒可重複使用",
         "fill": "rgba(211,7,7,1)",
@@ -19148,7 +19148,7 @@
         "stroke": "#000000"
     },
     {
-        "name": "53 pre:True post:False long-term:True",
+        "name": "53 True,False,True",
         "parent": "null",
         "tip": "“感謝中國！”羅馬上空響起《義勇軍進行曲》",
         "fill": "rgba(211,7,7,1)",
@@ -19525,7 +19525,7 @@
         "stroke": "#000000"
     },
     {
-        "name": "54 pre:False post:False long-term:True",
+        "name": "54 False,False,True",
         "parent": "null",
         "tip": "本醫學教授Tasuku Honjo(本庶佑)博士今天表示\"冠狀病毒不是天然的\"",
         "fill": "rgba(211,7,7,1)",
@@ -19902,7 +19902,7 @@
         "stroke": "#000000"
     },
     {
-        "name": "55 pre:True post:True long-term:True",
+        "name": "55 True,True,True",
         "parent": "null",
         "tip": "無污染和結構損壞 醫師：口罩經消毒可重複使用",
         "fill": "rgba(211,7,7,1)",
@@ -20279,7 +20279,7 @@
         "stroke": "#000000"
     },
     {
-        "name": "56 pre:False post:True long-term:True",
+        "name": "56 False,True,True",
         "parent": "null",
         "tip": "無污染和結構損壞 醫師：口罩經消毒可重複使用",
         "fill": "rgba(211,7,7,1)",
@@ -20656,7 +20656,7 @@
         "stroke": "#000000"
     },
     {
-        "name": "57 pre:True post:True long-term:True",
+        "name": "57 True,True,True",
         "parent": "null",
         "tip": "“感謝中國！”羅馬上空響起《義勇軍進行曲》",
         "fill": "rgba(211,7,7,1)",
@@ -21033,7 +21033,7 @@
         "stroke": "#000000"
     },
     {
-        "name": "58 pre:True post:True long-term:True",
+        "name": "58 True,True,True",
         "parent": "null",
         "tip": "本醫學教授Tasuku Honjo(本庶佑)博士今天表示\"冠狀病毒不是天然的\"",
         "fill": "rgba(211,7,7,1)",
@@ -21410,7 +21410,7 @@
         "stroke": "#000000"
     },
     {
-        "name": "59 pre:True post:True long-term:False",
+        "name": "59 True,True,False",
         "parent": "null",
         "tip": "無污染和結構損壞 醫師：口罩經消毒可重複使用",
         "fill": "rgba(211,7,7,1)",
@@ -21787,7 +21787,7 @@
         "stroke": "#000000"
     },
     {
-        "name": "60 pre:True post:True long-term:True",
+        "name": "60 True,True,True",
         "parent": "null",
         "tip": "本醫學教授Tasuku Honjo(本庶佑)博士今天表示\"冠狀病毒不是天然的\"",
         "fill": "rgba(211,7,7,1)",
@@ -22164,7 +22164,7 @@
         "stroke": "#000000"
     },
     {
-        "name": "61 pre:True post:True long-term:True",
+        "name": "61 True,True,True",
         "parent": "null",
         "tip": "無污染和結構損壞 醫師：口罩經消毒可重複使用",
         "fill": "rgba(211,7,7,1)",
@@ -22541,7 +22541,7 @@
         "stroke": "#000000"
     },
     {
-        "name": "62 pre:False post:False long-term:False",
+        "name": "62 False,False,False",
         "parent": "null",
         "tip": "“感謝中國！”羅馬上空響起《義勇軍進行曲》",
         "fill": "rgba(211,7,7,1)",
@@ -22918,7 +22918,7 @@
         "stroke": "#000000"
     },
     {
-        "name": "63 pre:True post:True long-term:True",
+        "name": "63 True,True,True",
         "parent": "null",
         "tip": "本醫學教授Tasuku Honjo(本庶佑)博士今天表示\"冠狀病毒不是天然的\"",
         "fill": "rgba(211,7,7,1)",
@@ -23295,7 +23295,7 @@
         "stroke": "#000000"
     },
     {
-        "name": "64 pre:False post:True long-term:False",
+        "name": "64 False,True,False",
         "parent": "null",
         "tip": "“感謝中國！”羅馬上空響起《義勇軍進行曲》",
         "fill": "rgba(211,7,7,1)",
@@ -23665,7 +23665,7 @@
         "stroke": "#000000"
     },
     {
-        "name": "65 pre:True post:True long-term:True",
+        "name": "65 True,True,True",
         "parent": "null",
         "tip": "無污染和結構損壞 醫師：口罩經消毒可重複使用",
         "fill": "rgba(211,7,7,1)",
@@ -23986,7 +23986,7 @@
         "stroke": "#000000"
     },
     {
-        "name": "66 pre:True post:True long-term:True",
+        "name": "66 True,True,True",
         "parent": "null",
         "tip": "無污染和結構損壞 醫師：口罩經消毒可重複使用",
         "fill": "rgba(211,7,7,1)",
@@ -24363,7 +24363,7 @@
         "stroke": "#000000"
     },
     {
-        "name": "67 pre:False post:True long-term:True",
+        "name": "67 False,True,True",
         "parent": "null",
         "tip": "“感謝中國！”羅馬上空響起《義勇軍進行曲》",
         "fill": "rgba(211,7,7,1)",
@@ -24740,7 +24740,7 @@
         "stroke": "#000000"
     },
     {
-        "name": "68 pre:True post:True long-term:True",
+        "name": "68 True,True,True",
         "parent": "null",
         "tip": "本醫學教授Tasuku Honjo(本庶佑)博士今天表示\"冠狀病毒不是天然的\"",
         "fill": "rgba(211,7,7,1)",
@@ -25117,7 +25117,7 @@
         "stroke": "#000000"
     },
     {
-        "name": "69 pre:False post:False long-term:False",
+        "name": "69 False,False,False",
         "parent": "null",
         "tip": "“感謝中國！”羅馬上空響起《義勇軍進行曲》",
         "fill": "rgba(211,7,7,1)",
@@ -25494,7 +25494,7 @@
         "stroke": "#000000"
     },
     {
-        "name": "70 pre:False post:False long-term:False",
+        "name": "70 False,False,False",
         "parent": "null",
         "tip": "無污染和結構損壞 醫師：口罩經消毒可重複使用",
         "fill": "rgba(211,7,7,1)",
@@ -25864,7 +25864,7 @@
         "stroke": "#000000"
     },
     {
-        "name": "71 pre:False post:False long-term:False",
+        "name": "71 False,False,False",
         "parent": "null",
         "tip": "本醫學教授Tasuku Honjo(本庶佑)博士今天表示\"冠狀病毒不是天然的\"",
         "fill": "rgba(211,7,7,1)",
@@ -26241,7 +26241,7 @@
         "stroke": "#000000"
     },
     {
-        "name": "72 pre:False post:False long-term:False",
+        "name": "72 False,False,False",
         "parent": "null",
         "tip": "本醫學教授Tasuku Honjo(本庶佑)博士今天表示\"冠狀病毒不是天然的\"",
         "fill": "rgba(211,7,7,1)",
@@ -26618,7 +26618,7 @@
         "stroke": "#000000"
     },
     {
-        "name": "73 pre:True post:True long-term:False",
+        "name": "73 True,True,False",
         "parent": "null",
         "tip": "“感謝中國！”羅馬上空響起《義勇軍進行曲》",
         "fill": "rgba(211,7,7,1)",
@@ -26995,7 +26995,7 @@
         "stroke": "#000000"
     },
     {
-        "name": "74 pre:True post:True long-term:True",
+        "name": "74 True,True,True",
         "parent": "null",
         "tip": "本醫學教授Tasuku Honjo(本庶佑)博士今天表示\"冠狀病毒不是天然的\"",
         "fill": "rgba(211,7,7,1)",
@@ -27372,7 +27372,7 @@
         "stroke": "#000000"
     },
     {
-        "name": "75 pre:True post:True long-term:True",
+        "name": "75 True,True,True",
         "parent": "null",
         "tip": "本醫學教授Tasuku Honjo(本庶佑)博士今天表示\"冠狀病毒不是天然的\"",
         "fill": "rgba(211,7,7,1)",
@@ -27749,7 +27749,7 @@
         "stroke": "#000000"
     },
     {
-        "name": "76 pre:False post:False long-term:False",
+        "name": "76 False,False,False",
         "parent": "null",
         "tip": "“感謝中國！”羅馬上空響起《義勇軍進行曲》",
         "fill": "rgba(211,7,7,1)",
@@ -28126,7 +28126,7 @@
         "stroke": "#000000"
     },
     {
-        "name": "77 pre:True post:True long-term:False",
+        "name": "77 True,True,False",
         "parent": "null",
         "tip": "本醫學教授Tasuku Honjo(本庶佑)博士今天表示\"冠狀病毒不是天然的\"",
         "fill": "rgba(211,7,7,1)",
@@ -28503,7 +28503,7 @@
         "stroke": "#000000"
     },
     {
-        "name": "78 pre:False post:False long-term:True",
+        "name": "78 False,False,True",
         "parent": "null",
         "tip": "無污染和結構損壞 醫師：口罩經消毒可重複使用",
         "fill": "rgba(211,7,7,1)",
@@ -28880,7 +28880,7 @@
         "stroke": "#000000"
     },
     {
-        "name": "79 pre:False post:False long-term:False",
+        "name": "79 False,False,False",
         "parent": "null",
         "tip": "“感謝中國！”羅馬上空響起《義勇軍進行曲》",
         "fill": "rgba(211,7,7,1)",
@@ -29257,7 +29257,7 @@
         "stroke": "#000000"
     },
     {
-        "name": "80 pre:True post:True long-term:False",
+        "name": "80 True,True,False",
         "parent": "null",
         "tip": "本醫學教授Tasuku Honjo(本庶佑)博士今天表示\"冠狀病毒不是天然的\"",
         "fill": "rgba(211,7,7,1)",
@@ -29634,7 +29634,7 @@
         "stroke": "#000000"
     },
     {
-        "name": "81 pre:True post:True long-term:True",
+        "name": "81 True,True,True",
         "parent": "null",
         "tip": "“感謝中國！”羅馬上空響起《義勇軍進行曲》",
         "fill": "rgba(211,7,7,1)",
@@ -30004,7 +30004,7 @@
         "stroke": "#000000"
     },
     {
-        "name": "82 pre:False post:False long-term:False",
+        "name": "82 False,False,False",
         "parent": "null",
         "tip": "“感謝中國！”羅馬上空響起《義勇軍進行曲》",
         "fill": "rgba(211,7,7,1)",
@@ -30381,7 +30381,7 @@
         "stroke": "#000000"
     },
     {
-        "name": "83 pre:True post:False long-term:False",
+        "name": "83 True,False,False",
         "parent": "null",
         "tip": "本醫學教授Tasuku Honjo(本庶佑)博士今天表示\"冠狀病毒不是天然的\"",
         "fill": "rgba(211,7,7,1)",
@@ -30758,7 +30758,7 @@
         "stroke": "#000000"
     },
     {
-        "name": "84 pre:False post:True long-term:False",
+        "name": "84 False,True,False",
         "parent": "null",
         "tip": "本醫學教授Tasuku Honjo(本庶佑)博士今天表示\"冠狀病毒不是天然的\"",
         "fill": "rgba(211,7,7,1)",
@@ -31135,7 +31135,7 @@
         "stroke": "#000000"
     },
     {
-        "name": "85 pre:False post:True long-term:True",
+        "name": "85 False,True,True",
         "parent": "null",
         "tip": "無污染和結構損壞 醫師：口罩經消毒可重複使用",
         "fill": "rgba(211,7,7,1)",
@@ -31512,7 +31512,7 @@
         "stroke": "#000000"
     },
     {
-        "name": "86 pre:True post:True long-term:True",
+        "name": "86 True,True,True",
         "parent": "null",
         "tip": "“感謝中國！”羅馬上空響起《義勇軍進行曲》",
         "fill": "rgba(211,7,7,1)",
@@ -31889,7 +31889,7 @@
         "stroke": "#000000"
     },
     {
-        "name": "87 pre:True post:True long-term:True",
+        "name": "87 True,True,True",
         "parent": "null",
         "tip": "無污染和結構損壞 醫師：口罩經消毒可重複使用",
         "fill": "rgba(211,7,7,1)",
@@ -32266,7 +32266,7 @@
         "stroke": "#000000"
     },
     {
-        "name": "88 pre:False post:False long-term:True",
+        "name": "88 False,False,True",
         "parent": "null",
         "tip": "“感謝中國！”羅馬上空響起《義勇軍進行曲》",
         "fill": "rgba(211,7,7,1)",
@@ -32643,7 +32643,7 @@
         "stroke": "#000000"
     },
     {
-        "name": "89 pre:True post:True long-term:False",
+        "name": "89 True,True,False",
         "parent": "null",
         "tip": "本醫學教授Tasuku Honjo(本庶佑)博士今天表示\"冠狀病毒不是天然的\"",
         "fill": "rgba(211,7,7,1)",
