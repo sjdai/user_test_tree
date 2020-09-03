@@ -50,7 +50,7 @@ with open(path_of_pairs) as csvfile:
     rows = csv.DictReader(csvfile)
     id_test_dct["random"] = {"fakes":[],"reals":[],"random":[]}
     for row in rows:
-        news_id = row["news_id"]
+        news_id = row["news_id"] #event id
         fake = row["fake"]
         itemId = row["itemId"]
         item_id_event_id[itemId] = news_id
@@ -140,7 +140,7 @@ for i in a:
         user += 1
         query_relation = tmp_dct['query_entity']
         query_relation = inv_map[query_relation]
-        query_relation = item_id_event_id[query_relation]
+        query_relation = item_id_event_id[query_relation] #event_id
         candidates = tmp_dct['step_candidates']
         candidates.reverse()
         candidates.pop(0)
@@ -211,6 +211,7 @@ for i in a:
 
         dct_keys = true_false_dct.keys()
         decision = inv_map[records[-1][1]]
+
         if decision not in dct_keys:
             tag = 'random'
         else:
@@ -222,7 +223,7 @@ for i in a:
         elif tag == 'random':
             rbga = "rgba(68,70,79,1)"
         json_dct = {
-                "name": str(user),
+                "name": str(user), #pre post long
                 "parent": "null",
                 "tip": corpus[decision][0],
                 "fill": rbga,
